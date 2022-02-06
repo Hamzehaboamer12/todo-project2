@@ -24,6 +24,11 @@ if (con === false) {
 }
 
 
+if(con === false){
+alert("Hello " + title + " "+ userName);
+}
+=======
+
 var arrayResult = [];
 var questionOne = prompt(" Do you like Bananas?");
 
@@ -66,3 +71,4 @@ checkThirdq(questionThere);
 console.log(arrayResult[0]);
 console.log(arrayResult[1]);
 console.log(arrayResult[2]);
+
